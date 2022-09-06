@@ -1,3 +1,6 @@
+body{
+    overflow-x: hidden;
+}
 .my-startline {
     position: relative;
 }
@@ -73,7 +76,10 @@
 .sc-tabs .nav-item button span{
     display: block;
 }
-.sc-tabs .my-navtabs .nav-item.active, .sc-tabs .my-navtabs .nav-item:hover{
+.sc-tabs .my-navtabs .nav-item.active{
+    border-bottom-color: #00a3c8;
+}
+.sc-tabs .my-navtabs .nav-item:hover{
     border-bottom-color: #00a3c8;
 }
 .sc-tabs .my-navtabs .nav-item .nav-link.active i, .sc-tabs .my-navtabs .nav-item i:hover{
@@ -84,10 +90,10 @@
 }
 .my-sidebar{
     transform: translateX(-350px);
-    height: 600px;
+    height: 100%;
 }
 .my-sidebar-inner{
-    height: 500px;
+    height: 100%;
     overflow: hidden;
     overflow-y: scroll;
 }
