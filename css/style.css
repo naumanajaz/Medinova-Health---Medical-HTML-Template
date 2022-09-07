@@ -24,12 +24,19 @@ body{
     background-color: #5663C1;
     border-radius: 30px;
 }
+.lower-header-navbar .navbar-nav .dropdown .nav-link{
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .lower-header-navbar .navbar-nav .dropdown:hover{
     background-color: #5663C1;
     border-radius: 30px;
 }
 .lower-header-navbar .navbar-nav .dropdown:hover .dropdown-menu{
     display: block;
+}
+.lower-header-navbar .navbar-nav .dropdown .dropdown-menu{
+    margin-top: 14px;
 }
 .lower-header-navbar .navbar-nav .dropdown-menu{
     border-top: 2px solid black;
@@ -100,7 +107,6 @@ body{
 .sidebar-hidden{
     top: 30px;
 }
-
 
 
 

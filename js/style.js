@@ -7,11 +7,34 @@ function show(){
     }
 }
 function myfunction(){
-    let x = document.querySelector('.elms');
-    console.log(elms.style.display = 'block')
+    let elms = document.getElementById('elms');
     elms.style.display = 'block';
 }
-function myhide(){
-    let y = document.querySelector('.elms');
+function hide(){
+    let elms = document.getElementById('elms');
     elms.style.display = 'none';
+}
+function yfunction(){
+    let elms2 = document.getElementById('elms2');
+    elms2.style.display = 'block';
+}
+function yhide(){
+    let elms2 = document.getElementById('elms2');
+    elms2.style.display = 'none';
+}
+function xfunction(){
+    let x = document.getElementById('elms3');
+    elms3.style.display = 'block';
+}
+function xhide(){
+    let x = document.getElementById('elms3');
+    elms3.style.display = 'none';
+}
+function wfunction(){
+    let w = document.getElementById('elms4');
+    elms4.style.display = 'block';
+}
+function whide(){
+    let w = document.getElementById('elms4');
+    elms4.style.display = 'none';
 }
