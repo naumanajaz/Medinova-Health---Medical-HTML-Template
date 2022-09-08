@@ -19,27 +19,34 @@
                             <ul class="navbar-nav me-auto mb-2  text-center align-self-center justify-content-center"
                                 style="flex-direction: unset;">
                                 <li class="nav-item text-light me-4 py-3">
-                                    <a href="tel:+440-98-5298" class="text-light text-decoration-none"><i class="bi bi-telephone-fill pe-2"></i>Tel: +440-98-5298</a>
+                                    <a href="tel:+440-98-5298" class="text-light text-decoration-none"><i
+                                            class="bi bi-telephone-fill pe-2"></i>Tel: +440-98-5298</a>
                                 </li>
                                 <li class="nav-item text-light me-4 py-3 my-startline my-padding">
-                                    <a href="mailto:info@example.com" class="text-light text-decoration-none"><i class="fa fa-envelope pe-2" aria-hidden="true"></i>info@example.com</a>
+                                    <a href="mailto:info@example.com" class="text-light text-decoration-none"><i
+                                            class="fa fa-envelope pe-2" aria-hidden="true"></i>info@example.com</a>
                                 </li>
                                 <li class="nav-item text-light me-4 py-3 my-startline">
-                                    <a href="https://goo.gl/maps/bFsKS2XsSFfy7pHL8" target="_blank" class="text-light text-decoration-none"><i class="fa fa-map pe-2" aria-hidden="true"></i>121 King Street, Melbourne</a>
+                                    <a href="https://goo.gl/maps/bFsKS2XsSFfy7pHL8" target="_blank"
+                                        class="text-light text-decoration-none"><i class="fa fa-map pe-2"
+                                            aria-hidden="true"></i>121 King Street, Melbourne</a>
                                 </li>
                             </ul>
                             <ul class="navbar-nav ms-auto mb-2  text-center align-self-center justify-content-center d-flex"
                                 style="flex-direction: unset;">
                                 <li class="nav-item ">
-                                    <a class="nav-link d-inline text-light" href="http://www.facebook.com" target="_blank"><i class="bi bi-facebook"
+                                    <a class="nav-link d-inline text-light" href="http://www.facebook.com"
+                                        target="_blank"><i class="bi bi-facebook"
                                             style="width: 16px;height: 16px;padding:4px;border-radius:50%;"></i></a>
                                 </li>
                                 <li class="nav-item ">
-                                    <a class="nav-link d-inline text-light" href="http://www.twitter.com" target="_blank"><i class="bi bi-twitter"
+                                    <a class="nav-link d-inline text-light" href="http://www.twitter.com"
+                                        target="_blank"><i class="bi bi-twitter"
                                             style="width: 16px;height: 16px;padding:4px;border-radius:50%;"></i></a>
                                 </li>
                                 <li class="nav-item me-3">
-                                    <a class="nav-link d-inline text-light" href="http://www.youtube.com" target="_blank"><i class="bi bi-youtube"
+                                    <a class="nav-link d-inline text-light" href="http://www.youtube.com"
+                                        target="_blank"><i class="bi bi-youtube"
                                             style="width: 16px;height: 16px;padding:4px;border-radius:50%;"></i></a>
                                 </li>
                                 <li class="nav-item">
@@ -125,9 +132,25 @@
                                         data-bs-target="#staticBackdrop"><i class="bi bi-search"
                                             style="font-size: 20px;"></i></a>
                                 </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#"><i class="bi bi-cart3"
+                                <li class="nav-item" style="position: relative;">
+                                    <a class="nav-link" onmouseenter="showdiv()" onmouseleave="hidediv()" href="#" target="_blank"><i class="bi bi-cart3"
                                             style="font-size: 20px;"></i></a>
+                                    <div id="cartdiv" class="py-3 px-4" style="width: 232px;position: absolute;display: none; height: 174px;left:-202px;bottom:-187px; z-index: 24;background-color: #fff;">
+                                        <div>
+                                            <row class="row">
+                                                <div class="col-md-8">
+                                                    <h6><b>Beanie</b></h6>
+                                                    <p class="text-muted">1= $18.00</p>
+                                                </div>
+                                                <div class="col-md-4">
+                                                    <img src="./assets/tabs-img/img-cart.png" style="width: 100%;">
+                                                </div>
+                                            </row>
+                                        </div>
+                                        <p class="text-muted d-flex"><b class="text-dark">Subtotal</b>: $18.00</p>
+                                        <a href="#" class="text-decoration-none text-white px-2 py-2" style="background-color: #4954A4;">View Cart</a>
+                                        <a href="#" class="text-decoration-none text-white px-2 py-2" style="background-color: #00A3C8;">Checkout</a>
+                                    </div>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#"><i class="bi bi-list" style="font-size: 20px;"></i></a>
@@ -138,6 +161,8 @@
                 </nav>
             </div><!-- /.lower-header-navbar -->
         </header><!-- /.header -->
+
+
         <div class="carousel-1-wrapper" style="height:470px;">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
@@ -969,16 +994,20 @@
                                             <span>9.00 - 16.00</span>
                                         </p>
                                         <div class="my-card-icons">
-                                            <a href="http://www.facebook.com" target="_blank"><i class="bi bi-facebook text-light"
+                                            <a href="http://www.facebook.com" target="_blank"><i
+                                                    class="bi bi-facebook text-light"
                                                     style="font-size:24px;margin:8px;padding-top: 4px !important;
                                                 padding-bottom: 5px !important;padding: 8px;border-radius:50%;background-color: #007995;"></i></a>
-                                            <a href="http://www.instagram.com" target="_blank"><i class="fa fa-instagram text-light"
+                                            <a href="http://www.instagram.com" target="_blank"><i
+                                                    class="fa fa-instagram text-light"
                                                     style="font-size:24px;margin:8px;padding: 8px;border-radius:50%;background-color: #007995;"
                                                     aria-hidden="true"></i></a>
-                                            <a href="http://www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square text-light"
+                                            <a href="http://www.linkedin.com" target="_blank"><i
+                                                    class="fa fa-linkedin-square text-light"
                                                     style="font-size:24px;margin:8px;padding: 8px;border-radius:50%;background-color: #007995;"
                                                     aria-hidden="true"></i></a>
-                                            <a href="http://www.skype.com" target="_blank"><i class="fa fa-skype text-light"
+                                            <a href="http://www.skype.com" target="_blank"><i
+                                                    class="fa fa-skype text-light"
                                                     style="font-size:24px;margin:8px;padding: 8px;border-radius:50%;background-color: #007995;"
                                                     aria-hidden="true"></i></a>
                                         </div>
@@ -1001,16 +1030,20 @@
                                             <span>9.00 - 16.00</span>
                                         </p>
                                         <div class="my-card-icons">
-                                            <a href="http://www.facebook.com" target="_blank"><i class="bi bi-facebook text-light"
+                                            <a href="http://www.facebook.com" target="_blank"><i
+                                                    class="bi bi-facebook text-light"
                                                     style="font-size:24px;margin:8px;padding-top: 4px !important;
                                                 padding-bottom: 5px !important;padding: 8px;border-radius:50%;background-color: #007995;"></i></a>
-                                            <a href="http://www.instagram.com" target="_blank"><i class="fa fa-instagram text-light"
+                                            <a href="http://www.instagram.com" target="_blank"><i
+                                                    class="fa fa-instagram text-light"
                                                     style="font-size:24px;margin:8px;padding: 8px;border-radius:50%;background-color: #007995;"
                                                     aria-hidden="true"></i></a>
-                                            <a href="http://www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square text-light"
+                                            <a href="http://www.linkedin.com" target="_blank"><i
+                                                    class="fa fa-linkedin-square text-light"
                                                     style="font-size:24px;margin:8px;padding: 8px;border-radius:50%;background-color: #007995;"
                                                     aria-hidden="true"></i></a>
-                                            <a href="http://www.skype.com" target="_blank"><i class="fa fa-skype text-light"
+                                            <a href="http://www.skype.com" target="_blank"><i
+                                                    class="fa fa-skype text-light"
                                                     style="font-size:24px;margin:8px;padding: 8px;border-radius:50%;background-color: #007995;"
                                                     aria-hidden="true"></i></a>
                                         </div>
@@ -1033,16 +1066,20 @@
                                             <span>9.00 - 16.00</span>
                                         </p>
                                         <div class="my-card-icons">
-                                            <a href="http://www.facebook.com" target="_blank"><i class="bi bi-facebook text-light"
+                                            <a href="http://www.facebook.com" target="_blank"><i
+                                                    class="bi bi-facebook text-light"
                                                     style="font-size:24px;margin:8px;padding-top: 4px !important;
                                                 padding-bottom: 5px !important;padding: 8px;border-radius:50%;background-color: #007995;"></i></a>
-                                            <a href="http://www.instagram.com" target="_blank"><i class="fa fa-instagram text-light"
+                                            <a href="http://www.instagram.com" target="_blank"><i
+                                                    class="fa fa-instagram text-light"
                                                     style="font-size:24px;margin:8px;padding: 8px;border-radius:50%;background-color: #007995;"
                                                     aria-hidden="true"></i></a>
-                                            <a href="http://www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square text-light"
+                                            <a href="http://www.linkedin.com" target="_blank"><i
+                                                    class="fa fa-linkedin-square text-light"
                                                     style="font-size:24px;margin:8px;padding: 8px;border-radius:50%;background-color: #007995;"
                                                     aria-hidden="true"></i></a>
-                                            <a href="http://www.skype.com" target="_blank"><i class="fa fa-skype text-light"
+                                            <a href="http://www.skype.com" target="_blank"><i
+                                                    class="fa fa-skype text-light"
                                                     style="font-size:24px;margin:8px;padding: 8px;border-radius:50%;background-color: #007995;"
                                                     aria-hidden="true"></i></a>
                                         </div>
@@ -1065,16 +1102,20 @@
                                             <span>9.00 - 16.00</span>
                                         </p>
                                         <div class="my-card-icons">
-                                            <a href="http://www.facebook.com" target="_blank"><i class="bi bi-facebook text-light"
+                                            <a href="http://www.facebook.com" target="_blank"><i
+                                                    class="bi bi-facebook text-light"
                                                     style="font-size:24px;margin:8px;padding-top: 4px !important;
                                                 padding-bottom: 5px !important;padding: 8px;border-radius:50%;background-color: #007995;"></i></a>
-                                            <a href="http://www.instagram.com" target="_blank"><i class="fa fa-instagram text-light"
+                                            <a href="http://www.instagram.com" target="_blank"><i
+                                                    class="fa fa-instagram text-light"
                                                     style="font-size:24px;margin:8px;padding: 8px;border-radius:50%;background-color: #007995;"
                                                     aria-hidden="true"></i></a>
-                                            <a href="http://www.linkedin.com" target="_blank"><i class="fa fa-linkedin-square text-light"
+                                            <a href="http://www.linkedin.com" target="_blank"><i
+                                                    class="fa fa-linkedin-square text-light"
                                                     style="font-size:24px;margin:8px;padding: 8px;border-radius:50%;background-color: #007995;"
                                                     aria-hidden="true"></i></a>
-                                            <a href="http://www.skype.com" target="_blank"><i class="fa fa-skype text-light"
+                                            <a href="http://www.skype.com" target="_blank"><i
+                                                    class="fa fa-skype text-light"
                                                     style="font-size:24px;margin:8px;padding: 8px;border-radius:50%;background-color: #007995;"
                                                     aria-hidden="true"></i></a>
                                         </div>
@@ -1606,25 +1647,33 @@
             <div class="row images bg-white"
                 style="position: fixed;bottom: 40%;right:0; border: 3px solid green;border-radius: 8px;width: 72px;z-index: 23;">
                 <div class="col-12 mt-3 mb-1">
-                    <div id="elms" style="background-color: #fff;color: green;width: 88px; padding: 5px 8px;position:absolute;right: 75px;display: none;"> Buy HTML</div>
+                    <div id="elms"
+                        style="background-color: #fff;color: green;width: 88px; padding: 5px 8px;position:absolute;right: 75px;display: none;">
+                        Buy HTML</div>
                     <a href="#" onmouseenter="myfunction()" onmouseleave="hide()">
                         <i class="fa fa-shopping-cart" aria-hidden="true" style="color: yellow;font-size: 25px;"></i>
                     </a>
                 </div><!-- /.col-12 -->
                 <div class="col-12 my-2">
-                    <div id="elms2"  style="background-color: #fff;color: green;width: 88px; padding: 5px 8px;position:absolute;right: 75px;display: none;"> Check WP</div>
+                    <div id="elms2"
+                        style="background-color: #fff;color: green;width: 88px; padding: 5px 8px;position:absolute;right: 75px;display: none;">
+                        Check WP</div>
                     <a href="#" onmouseenter="yfunction()" onmouseleave="yhide()">
                         <i class="fa fa-wordpress" aria-hidden="true" style="font-size: 25px;"></i>
                     </a>
                 </div><!-- /.col-12 -->
                 <div class="col-12 my-2">
-                    <div id="elms3" style="background-color: #fff;color: green;width: 88px; padding: 5px 8px;position:absolute;right: 75px;display: none;"> Buy WP</div>
+                    <div id="elms3"
+                        style="background-color: #fff;color: green;width: 88px; padding: 5px 8px;position:absolute;right: 75px;display: none;">
+                        Buy WP</div>
                     <a href="#" onmouseenter="xfunction()" onmouseleave="xhide()">
                         <i class="fa fa-wordpress" aria-hidden="true" style="font-size: 25px;"></i>
                     </a>
                 </div><!-- /.col-12 -->
                 <div class="col-12 mb-3 mt-1">
-                    <div id="elms4" style="background-color: #fff;color: green;width: 88px; padding: 5px 8px;position:absolute;right: 75px;display: none;">docs</div>
+                    <div id="elms4"
+                        style="background-color: #fff;color: green;width: 88px; padding: 5px 8px;position:absolute;right: 75px;display: none;">
+                        docs</div>
                     <a href="#" onmouseenter="wfunction()" onmouseleave="whide()">
                         <i class="fa fa-file-text" aria-hidden="true" style="font-size: 25px;"></i>
                     </a>
@@ -1861,10 +1910,10 @@
                 </div>
             </div>
             <a href="#" onclick="show()" data-bs-toggle="modal" data-bs-target="#exampleModal"
-            style="position: absolute;right: -36px; top: 61px;"><i class="fa fa-cog text-white" aria-hidden="true"
-            style="background-color: rgba(8,11,11,255);font-size: 24px; padding: 6px 8px;"></i></a>
+                style="position: absolute;right: -36px; top: 61px;"><i class="fa fa-cog text-white" aria-hidden="true"
+                    style="background-color: rgba(8,11,11,255);font-size: 24px; padding: 6px 8px;"></i></a>
         </div>
-        
+
         <div class="upward-arrow">
             <a href="#"
                 style="background-color: rgba(38, 177, 208, 0.4);width: 50px;height: 50px;position: fixed;bottom: 24px;right: 36px;border-radius: 50%;display: flex;justify-content: center;align-items:center;text-decoration: none;font-size: 32px;">

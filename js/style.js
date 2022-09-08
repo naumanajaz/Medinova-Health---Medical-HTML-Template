@@ -38,3 +38,11 @@ function whide(){
     let w = document.getElementById('elms4');
     elms4.style.display = 'none';
 }
+function showdiv(){
+    let w = document.getElementById('cartdiv');
+    cartdiv.style.display = 'block';
+}
+function hidediv(){
+    let w = document.getElementById('cartdiv');
+    cartdiv.style.display = 'none';
+}
