@@ -107,8 +107,37 @@ body{
 .sidebar-hidden{
     top: 30px;
 }
-
-
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0rem rgb(13 110 253 / 25%);
+}
+.accordion-button:not(.collapsed) {
+    color: white;
+    background-color: #00A3c8;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
+}
+.hospital-services-wrapper .h-s-row .card-img .img i:hover{
+    background-color: #00A3C8;
+    color: white!important;
+}
+.product-info-wrapper .item img {
+    background:linear-gradient rgba(234,239,243,255)!important;  
+}
+.product-info-wrapper .carousel-indicators {
+    bottom: -184px;
+    left: -188px;
+} 
+.product-info-wrapper .item .carousel-indicators li {
+    width: 100px;
+    height: 100px;
+  background-position: center;
+  background-size: cover;
+} 
+.carting-btn:hover{
+    color: black!important;
+}
 
 
 
@@ -135,6 +164,12 @@ body{
 
 
 @media (max-width: 575.98px) {
+    .hospital-services-wrapper .h-s-row .card-img{
+        display: block!important;
+    }
+    .hospital-services-wrapper .h-s-row .card-img .img{
+        margin-bottom: 12px;
+    }
     .navbar-nav {
         flex-direction: column;
         display: block;
@@ -189,6 +224,12 @@ body{
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+    .hospital-services-wrapper .h-s-row .card-img{
+        display: block!important;
+    }
+    .hospital-services-wrapper .h-s-row .card-img .img{
+        margin-bottom: 12px;
+    }
     .my-startline::before {
         content: '';
         display: none;
@@ -286,6 +327,12 @@ body{
     }
     .form-col-wrapper .my-form-col{
         width: 100%;
+    }
+    .hospital-services-wrapper .h-s-row .card-img{
+        display: block!important;
+    }
+    .hospital-services-wrapper .h-s-row .card-img .img{
+        margin-bottom: 12px;
     }
 }
 
